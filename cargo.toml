@@ -1,0 +1,4 @@
+[package]
+name = "NetworkMods"
+version = "0.0.1"
+build = "./src/main.rs"
