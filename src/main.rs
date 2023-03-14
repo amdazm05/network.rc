@@ -1,4 +1,6 @@
+mod networkmods;
 fn main()
 {
-    println!("Hello");
+    let mut Server = networkmods::tcp_server::TCPServer{};
+    Server.init();
 }
